@@ -2,6 +2,7 @@ import './globals.css';
 import { Inter } from 'next/font/google';
 import Footer from '@/components/Footer';
 import ThemeToggle from '@/components/ThemeToggle';
+import SplashScreen from '@/components/SplashScreen';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={inter.className}>
       <body>
+  <SplashScreen />
     <header className="border-b border-black/10 dark:border-white/10">
           <div className="container flex items-center justify-between h-16">
       <a href="/" className="font-semibold text-slate-900 dark:text-white">Vaibhav Jain</a>

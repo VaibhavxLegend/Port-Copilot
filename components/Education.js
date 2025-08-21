@@ -1,16 +1,16 @@
 export default function Education() {
   const items = [
     {
-      school: 'Your University',
-      degree: 'B.Tech in Computer Science',
-      years: '2019 — 2023',
-      details: 'Focus on web development, data structures, and software engineering.',
+      school: 'Delhi Technological University',
+      degree: 'B.Tech in Information Technology',
+      years: '2023 — 2027(Expected)',
+      details: 'Focus on web development, design, data structures, and software engineering.',
     },
     {
-      school: 'Your High School',
+      school: 'Vivekanand School',
       degree: 'Senior Secondary (Science)',
-      years: '2017 — 2019',
-      details: 'Mathematics and Computer Science stream.',
+      years: '2011 — 2023',
+      details: 'CBSE Board, Science stream.',
     },
   ];
 

@@ -21,7 +21,10 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex-1">
-          <div className="aspect-square rounded-2xl bg-gradient-to-br from-brand-500/20 via-brand-400/10 to-transparent border border-white/10" />
+          <div
+            className="aspect-square rounded-2xl border border-white/10 bg-center bg-cover bg-no-repeat"
+            style={{ backgroundImage: "url('/image.png')" }}
+          />
         </div>
       </div>
     </section>

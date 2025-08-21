@@ -50,6 +50,9 @@ body {
   50% { box-shadow: 0 12px 35px -10px rgba(59,130,246,.55); }
 }
 
+/* Optional: spin-slower utility if needed */
+.animate-spin-slower { animation: spin 2.2s linear infinite; }
+
 /* Animated underline for text links */
 .hover-underline {
   background: linear-gradient(currentColor, currentColor) bottom left/0% 1px no-repeat;
